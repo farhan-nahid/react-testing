@@ -1,10 +1,12 @@
 import "./App.css";
-import Greet from "./components/Greet/Greet";
+import { Application } from "./components/Application/Application";
+// import Greet from "./components/Greet/Greet";
 
 function App() {
   return (
     <>
-      <Greet number={12} />
+      {/* <Greet number={12} /> */}
+      <Application />
     </>
   );
 }
