@@ -9,14 +9,13 @@ export const Application = () => {
       <div>Custom HTML element</div>
       <form>
         <div>
-          <label htmlFor="name">Name</label>
-          <input
-            type="text"
-            id="name"
-            placeholder="Fullname"
-            value="Vishwas"
-            onChange={() => {}}
-          />
+          <label htmlFor="name">First Name</label>
+          <input type="text" id="name" placeholder="Full name" />
+        </div>
+
+        <div>
+          <label htmlFor="email">Email</label>
+          <input type="email" id="email" placeholder="Your Email" />
         </div>
 
         <div>
