@@ -30,10 +30,8 @@ export const Application = () => {
           </select>
         </div>
         <div>
-          <label>
-            <input type="checkbox" id="terms" /> I agree to the terms and
-            conditions
-          </label>
+          <input type="checkbox" id="terms" />
+          <label>I agree to the terms and conditions</label>
         </div>
         <button disabled>Submit</button>
       </form>
