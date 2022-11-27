@@ -20,6 +20,9 @@ describe('Application', () => {
     });
     expect(nameElement).toBeInTheDocument();
 
+    const placeholderName = screen.getByPlaceholderText('Full name');
+    expect(placeholderName).toBeInTheDocument();
+
     const emailElement = screen.getByRole('textbox', {
       name: 'Email',
     });
