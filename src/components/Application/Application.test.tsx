@@ -39,5 +39,8 @@ describe('Application', () => {
 
     const textElement = screen.getByText('All fields are mandatory');
     expect(textElement).toBeInTheDocument();
+
+    const testIdEl = screen.getByTestId('custom-id');
+    expect(testIdEl).toBeInTheDocument();
   });
 });
